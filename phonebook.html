@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WeChat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/phonebook.css" />
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="./scripts/phonebook.js"></script>
+
+
+
+</head>
+
+<body>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <p id="title">通訊錄</p>
+        </li>
+    </ul>
+    <div>
+        <input type="text" class="form-control" id="search" style="font-family:Arial, FontAwesome" placeholder="&#xF002 搜尋">
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <span style="padding-left: 10px; color: rgba(89, 94, 93, 0.795); font-size: 10px;">朋友推薦訊息</span>
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/1.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-2">
+                        <img src="./img/2.png" alt="" class="pro_pic">
+                    </div>
+                <div class="col-6"></div>
+                <div class="col-2" >
+                    <span style="line-height: 55px;"><span class="badge badge-danger" >2</span></span>
+                    
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/users.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-10">
+                    <p class="name">聊天室</p>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/tag.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-10">
+                    <p class="name">標籤</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <p class="initials">E</p>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/elon.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-10">
+                    <p class="name">Elon Musk</p>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/a.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-6">
+                    <p class="name">Elite</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <p class="initials">F</p>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/a.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-10">
+                    <p class="name">Frank</p>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/a.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-10">
+                    <p class="name">Fernando</p>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/a.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-10">
+                    <p class="name">Fay</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <p class="initials">P</p>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/pgone.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-10">
+                    <p class="name">PG One</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <p class="initials">T</p>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/tt.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-10">
+                    <p class="name">Tizzy T 你的男孩</p>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/a.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-6">
+                    <p class="name">Vera</p>
+
+                </div>
+
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/a.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-6">
+                    <p class="name">Vera</p>
+
+                </div>
+
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class=row>
+                <div class="col-2">
+                    <img src="./img/a.png" alt="" class="pro_pic">
+                </div>
+                <div class="col-6">
+                    <p class="name">Vera</p>
+
+                </div>
+
+            </div>
+        </li>
+    </ul>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="col-3 nav-wrap">
+            <a href="./index.html">
+                <i class="fa fa-comment"></i>
+                <p class="nav-text">WeChat</p>
+            </a>
+        </div>
+        <div class="col-3 nav-wrap">
+            <a href="./phonebook.html">
+                <i class="fa fa-list-ul"></i>
+                <p class="nav-text">通訊錄</p>
+            </a>
+        </div>
+        <div class="col-3 nav-wrap">
+            <a href="discover.html">
+                <i class="fa fa-compass"></i>
+                <p class="nav-text">發現</p>
+            </a>
+        </div>
+        <div class="col-3 nav-wrap">
+            <a href="settings.html">
+                <i class="fa fa-user"></i>
+                <p class="nav-text">我的設定</p>
+            </a>
+        </div>
+
+    </nav>
+</body>
+
+</html>
